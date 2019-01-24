@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayout">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0040ff"
+        android:height="60sp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ff1a1a"
+        android:height="60sp"
+        android:layout_alignParentRight="true"
+        />
+    <Button
+        android:id="@+id/purple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#7300e6"
+        android:height="210sp"
+        android:layout_centerInParent="true"
+        android:width="140sp"
+        />
+<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#009900"
+        android:height="60sp"
+        android:layout_alignParentBottom="true"
+        />
+
+    <Button
+        android:layout_width="60sp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/purple"
+       android:layout_toRightOf="@+id/vertical_line"
+        android:height="60sp"
+        android:background="#009900" />
+    <Button
+        android:id="@+id/vertical_line"
+        android:layout_width="20sp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:height="365sp"
+        />
+
+</RelativeLayout>
